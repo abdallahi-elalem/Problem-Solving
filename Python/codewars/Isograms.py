@@ -6,5 +6,13 @@
 
 
 
-def is_isogram(string):
-    #your code here
+def is_isogram(s):
+    while s<=15:
+        s=s+7
+    return s
+
+    
+    
+    
+    
+print(is_isogram(3))
